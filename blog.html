@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nour Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="index.html" class="home-link">
+
+                NourBlog
+            </a>
+
+            <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu"
+                aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div id="navbar-menu" aria-labelledby="navbar-toggle">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link" href="#">Signup</a></li> 
+                    <li class="navbar-item"><a class="navbar-link" href="login.html">Login</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="blog.html">Blog</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#">About</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="content">
+
+            <h2 class="page-title">Add Posts</h2>
+
+            <form action="" method="post">
+                <div>
+                    <label>Title</label>
+                    <input type="text" name="title" class="text-input">
+                </div>
+                <div>
+                    <label>Body</label>
+                    <textarea name="body" id="body"></textarea>
+                </div>
+                <div>
+                    <label>Image</label>
+                    <input type="file" name="image" class="text-input">
+                </div>
+                <div>
+                    <label>Topic</label>
+                    <select name="topic" class="text-input">
+                        <option value="Poetry">Poetry</option>
+                        <option value="Life Lessons">Life Lessons</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="btn_post btn-big">Add Post</button>
+                </div>
+            </form>
+
+        </div>
+
+        <footer class="footer">
+            <h2>Footer</h2>
+        </footer>
+    </header>
+
+
+
+
+    
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
